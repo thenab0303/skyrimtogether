@@ -1,1 +1,11 @@
+/* Logo alignment */
+#elLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
 
+#elLogo img {
+    height: 100%;
+}
