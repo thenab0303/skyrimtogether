@@ -1,6 +1,5 @@
-const downloadBanner = () => {
-    return(`
-        <div class="bannerImage">this is a test</div>    
-    `);
-};
-downloadBanner();
+const bannerContainer = document.querySelector(".bannerContainer");
+
+bannerContainer.innerHTML = `
+    <div class="bannerImage">this is a test</div>
+`;
