@@ -1,3 +1,10 @@
+/* Background texture and color */
+body {
+    background-color: #000cf0;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
 /* Logo alignment */
 #elLogo {
     display: flex;
