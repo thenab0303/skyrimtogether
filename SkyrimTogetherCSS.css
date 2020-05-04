@@ -28,17 +28,24 @@ body {
 /* Custom code block server stats */
 .statsContainer {
     text-align: center;
-    height: 15vh;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column nowrap;
 }
 
 .statsCurrent {
+    width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .statsMax {
+    width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 /* Custom code block Discord invite */
