@@ -35,19 +35,16 @@ body {
     flex-flow: column nowrap;
 }
 
-.statsCurrent {
+.statsCurrent, .statsMax {
     width: 100%;
+    height: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid white;
 }
 
-.statsMax {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.statsCurrent {
+    border-bottom: 1px solid white;
 }
 
 .currentPlayers, .currentServers, .maxPlayers, .maxServers {
