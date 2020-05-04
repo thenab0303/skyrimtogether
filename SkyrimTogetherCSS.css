@@ -25,6 +25,22 @@ body {
     background-position: center;
 }
 
+/* Custom code block server stats */
+.statsContainer {
+    text-align: center;
+    height: 15vh;
+}
+
+.statsCurrent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.statsMax {
+    display: flex;
+    justify-content: space-around;
+}
+
 /* Custom code block Discord invite */
 .discordImage {
     width: 100%;
