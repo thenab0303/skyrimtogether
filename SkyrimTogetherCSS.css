@@ -29,6 +29,7 @@ body {
 .statsContainer {
     text-align: center;
     height: 10vh;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: column nowrap;
@@ -39,6 +40,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 1px solid white;
 }
 
 .statsMax {
@@ -46,6 +48,18 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.currentPlayers, .currentServers, .maxPlayers, .maxServers {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.currentPlayers, .maxPlayers {
+    border-right: 1px solid white;
 }
 
 /* Custom code block Discord invite */
