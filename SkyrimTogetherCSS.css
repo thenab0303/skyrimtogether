@@ -31,6 +31,12 @@
     align-items: center;
     flex-flow: column nowrap;
     font-family: 'Gentium Book Basic', serif;
+    font-size: 2rem;
+}
+
+.statsName {
+    font-weight: 700;
+    font-size: 0.8rem;
 }
 
 .statsCurrent, .statsMax {
