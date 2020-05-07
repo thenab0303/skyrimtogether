@@ -84,7 +84,7 @@ div#patchNotesFeed {
     font-size: 1rem !important;
 }
 
-#patchNotesFeed > ul > li > div > h4 > span > a {
+#patchNotesFeed > ul > li > div > h4 > span > a, #patchNotesFeed > ul > li > div > p {
     font-size: 1rem !important;
 }
 
