@@ -66,12 +66,12 @@
 }
 
 /* Patch Notes Feed */
-#patchNotesTitle {
+div#patchNotesTitle {
     font-family: 'Gentium Book Basic', serif;
-    font-size: 1rem;
+    font-size: 1rem !important;
 }
 
-#patchNotesFeed {
+div#patchNotesFeed {
     background-image: url("https://thenab0303.github.io/skyrimtogether/images/Patchnotes.png");
     background-size: cover;
     background-position: center;
