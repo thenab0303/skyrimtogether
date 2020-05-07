@@ -84,7 +84,7 @@ div#patchNotesFeed {
     font-size: 1rem !important;
 }
 
-div.patchNotesFeed ul.ipsDataList li.ipsDataItem div.ipsDataItem_main h4.ipsDataItem_title span.ipsType_break a {
+#patchNotesFeed > ul > li > div > h4 > span > a {
     font-size: 1rem !important;
 }
 
