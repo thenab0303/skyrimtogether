@@ -12,9 +12,19 @@ statsContainer.innerHTML = `
     </div>
 `;
 
+const currentPlayerNumbers = document.querySelector("#currentPlayerNumbers");
+const currentServerNumbers = document.querySelector("#currentServerNumbers");
+const maxPlayerNumbers = document.querySelector("#maxPlayerNumbers");
+const maxServerNumbers = document.querySelector("#maxServerNumbers");
+
 fetch(url)
 .then(resp => resp.json())
 .then(data => {
     console.log(data);
+    currentPlayerNumbers.innerHTML = data.current.players;
+    currentServerNumbers.innerHTML = data.current.servers;
+    maxPlayerNumbers.innerHTML = data.max.players;
+    maxServerNumbers.innerHTML = data.max.servers;
+
 })
 .catch((error) => console.error("Error:", error));
