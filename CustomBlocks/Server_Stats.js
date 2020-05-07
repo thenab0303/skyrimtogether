@@ -20,7 +20,6 @@ const maxServerNumbers = document.querySelector("#maxServerNumbers");
 fetch(url)
 .then(resp => resp.json())
 .then(data => {
-    console.log(data);
     currentPlayerNumbers.innerHTML = data.current.players;
     currentServerNumbers.innerHTML = data.current.servers;
     maxPlayerNumbers.innerHTML = data.max.players;
