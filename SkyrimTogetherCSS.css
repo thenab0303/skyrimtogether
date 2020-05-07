@@ -1,6 +1,15 @@
 /* Importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&display=swap');
 
+/* White borders at top of page */
+#ipsLayout_header > header {
+    border-top: 1px solid white;
+}
+
+#ipsLayout_header {
+    border-bottom: 1px solid white;
+}
+
 /* Logo alignment */
 #elLogo {
     display: flex;
