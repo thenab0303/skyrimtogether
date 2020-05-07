@@ -66,7 +66,7 @@
 }
 
 /* Patch Notes Feed */
-div#patchNotesTitle {
+h3#patchNotesTitle {
     font-family: 'Gentium Book Basic', serif;
     font-size: 1rem !important;
 }
