@@ -84,6 +84,10 @@ div#patchNotesFeed {
     font-size: 1rem !important;
 }
 
+div.patchNotesFeed ul li div h4 {
+    font-size: 1rem !important;
+}
+
 /* Custom code block server stats */
 .statsContainer {
     text-align: center;
