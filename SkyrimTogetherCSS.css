@@ -65,6 +65,18 @@
     margin-top: 40px;
 }
 
+/* Patch Notes Feed */
+#patchNotesFeed {
+    background-image: url("https://thenab0303.github.io/skyrimtogether/images/Patchnotes.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
 /* Custom code block server stats */
 .statsContainer {
     text-align: center;
