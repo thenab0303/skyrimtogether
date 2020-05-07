@@ -68,6 +68,7 @@
 /* Patch Notes Feed */
 #patchNotesTitle {
     font-family: 'Gentium Book Basic', serif;
+    font-size: 1rem;
 }
 
 #patchNotesFeed {
@@ -80,6 +81,7 @@
     align-items: center;
     flex-flow: row nowrap;
     font-family: 'Gentium Book Basic', serif;
+    font-size: 1rem !important;
 }
 
 /* Custom code block server stats */
