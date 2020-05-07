@@ -6,7 +6,7 @@ bannerContainer.innerHTML = `
             <div class="bannerSkyrim">SKYRIM</div>
             <div class="bannerDivider"></div>
             <div class="bannerTogether">TOGETHER</div>
-            <div class="bannerDownloadButton"></div>
+            <a href="#"><div class="bannerDownloadButton"></div></a>
         </div>
     </div>
 `;
