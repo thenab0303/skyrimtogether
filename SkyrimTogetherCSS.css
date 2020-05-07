@@ -35,26 +35,29 @@
 
 .bannerSkyrim {
     font-size: 4rem;
-    padding-bottom: 1.5vh;
 }
 
 .bannerDivider {
-    width: 300px;
+    width: 250px;
     height: 1px;
     border: 1px solid;
     border-image: linear-gradient(to right, #ffffff00, #ffffff, #ffffff00);
     border-image-slice: 1;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .bannerTogether {
     font-size: 2.5rem;
-    padding-top: 1vh;
 }
 
 .bannerDownloadButton {
     background-image: url("https://thenab0303.github.io/skyrimtogether/images/Download.png");
     background-size: contain;
     background-repeat: no-repeat;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
 }
 
 /* Custom code block server stats */
