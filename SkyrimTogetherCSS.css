@@ -1,11 +1,6 @@
 /* Importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&display=swap');
 
-/* Text color to black */
-.norewrite {
-    color: black;
-}
-
 /* Logo alignment */
 #elLogo {
     display: flex;
