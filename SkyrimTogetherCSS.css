@@ -1,3 +1,6 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&display=swap');
+
 /* Logo alignment */
 #elLogo {
     display: flex;
@@ -27,6 +30,7 @@
     justify-content: space-around;
     align-items: center;
     flex-flow: column nowrap;
+    font-family: 'Gentium Book Basic', serif;
 }
 
 .statsCurrent, .statsMax {
