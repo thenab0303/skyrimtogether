@@ -37,9 +37,6 @@
     align-items: center;
 }
 
-.statsCurrent {
-    border-bottom: 1px solid white;
-}
 
 .currentPlayers, .currentServers, .maxPlayers, .maxServers {
     width: 100%;
@@ -50,8 +47,23 @@
     flex-flow: column nowrap;
 }
 
-.currentPlayers, .maxPlayers {
-    border-right: 1px solid white;
+/* stats border colors */
+.statsCurrent {
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #ffffff00, #ffffff, #ffffff00);
+    border-image-slice: 1;
+}
+
+.currentPlayers {
+    border-right: 1px solid;
+    border-image: linear-gradient(#ffffff00, #ffffff);
+    border-image-slice: 1;
+}
+
+.maxPlayers {
+    border-right: 1px solid;
+    border-image: linear-gradient(to top, #ffffff00, #ffffff);
+    border-image-slice: 1;
 }
 
 /* Custom code block Discord invite */
