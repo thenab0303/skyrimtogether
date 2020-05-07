@@ -14,6 +14,17 @@
 }
 
 /* Custom code block download banner */
+.bannerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gentium Book Basic', serif;
+    font-weight: 700;
+}
+
 .bannerImage {
     width: 100%;
     height: 35vh;
