@@ -34,11 +34,6 @@
     padding-top: 12px;
 }
 
-#ipsLayout_header {
-    background-color: red;
-    height: 500px;
-}
-
 /* Custom code block download banner */
 .bannerText {
     display: flex;
