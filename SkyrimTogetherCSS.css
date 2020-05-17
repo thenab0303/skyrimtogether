@@ -81,6 +81,24 @@
     margin-top: 40px;
 }
 
+/* Desktop Download Banner */
+
+.bannerContainerDesktop {
+    position: relative;
+    transform: translate(0px, -170px);
+    z-index: -1;
+    margin-bottom: -170px;
+}
+
+.bannerImageDesktop {
+    height: 500px;
+}
+
+.bannerTextDesktop {
+    padding-top: 120px;
+    transform: scale(1.5);
+}
+
 /* Patch Notes Feed */
 h3#patchNotesTitle {
     font-family: 'Gentium Book Basic', serif;
