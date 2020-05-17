@@ -99,7 +99,10 @@
 }
 
 .bannerTextDesktop {
-    padding-top: 120px;
+    padding-top: 180px;
+}
+
+.bannerTextDesktopScale {
     transform: scale(1.5);
 }
 
