@@ -11,6 +11,10 @@
 }
 
 /* Logo alignment */
+#elMobileNav {
+    z-index: 1;
+}
+
 #elLogo {
     width: 85px;
     height: 85px;
