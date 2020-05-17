@@ -61,7 +61,8 @@
 .bannerDivider {
     width: 250px;
     height: 1px;
-    border: 1px solid;
+    border: none;
+    border-top: 2px solid;
     border-image: linear-gradient(to right, #ffffff00, #ffffff, #ffffff00);
     border-image-slice: 1;
     margin: 20px 0px 10px 0px;
