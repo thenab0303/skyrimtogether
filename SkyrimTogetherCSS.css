@@ -1,6 +1,11 @@
 /* Importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&display=swap');
 
+/* Textured Background */
+body {
+    background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
+}
+
 /* White borders at top of page */
 #ipsLayout_header > header {
     border-top: 1px solid white;
