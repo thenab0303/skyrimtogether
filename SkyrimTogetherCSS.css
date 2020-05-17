@@ -90,6 +90,7 @@ body {
 
 #ipsLayout_header header {
     background-color: #000000aa;
+    min-height: 120px;
 }
 
 .bannerContainerDesktop {
