@@ -41,10 +41,12 @@ body {
 
 /* Navigation Bar */
 .ipsNavBar_primary.ipsNavBar_noSubBars>ul>li.ipsNavBar_active>a {
+    background-color: #00000000;
     border-bottom: 1px solid white;
 }
 
 .ipsNavBar_primary>ul>li>a {
+    background-color: #00000000;
     transition: 300ms;
 }
 
