@@ -42,7 +42,9 @@ body {
 /* Navigation Bar */
 .ipsNavBar_primary.ipsNavBar_noSubBars>ul>li.ipsNavBar_active>a {
     background-color: #00000000;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #ffffffaa, #ffffff, #ffffffaa);
+    border-image-slice: 1;
 }
 
 .ipsNavBar_primary>ul>li>a {
@@ -51,7 +53,10 @@ body {
 }
 
 .ipsNavBar_primary>ul>li>a:hover {
-    border-bottom: 1px solid white;
+    background-color: #00000000;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #ffffffaa, #ffffff, #ffffffaa);
+    border-image-slice: 1;
 }
 
 /* Custom code block download banner */
