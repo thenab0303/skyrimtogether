@@ -8,11 +8,11 @@ body {
 
 /* White borders at top of page */
 #ipsLayout_header > header {
-    border-top: 1px solid white;
+    /* border-top: 1px solid white; */
 }
 
 #ipsLayout_header {
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
 
 /* Logo alignment */
