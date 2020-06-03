@@ -45,6 +45,15 @@ body {
     border-radius: 20px;
 }
 
+.ipsNavBar_primary>ul>li>a {
+    transition: 300ms;
+    border-radius: 20px;
+}
+
+.ipsNavBar_primary>ul>li>a:hover {
+    background-color: #000000aa;
+}
+
 /* Custom code block download banner */
 .bannerText {
     display: flex;
