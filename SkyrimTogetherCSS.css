@@ -42,9 +42,16 @@ body {
 /* Navigation Bar */
 .ipsNavBar_primary.ipsNavBar_noSubBars>ul>li.ipsNavBar_active>a {
     background-color: #00000000;
+}
+
+.ipsNavBar_primary.ipsNavBar_noSubBars>ul>li.ipsNavBar_active>a::after {
+    content: "";
+    display: block;
+    margin: auto;
     border-bottom: 1px solid;
     border-image: linear-gradient(to right, #ffffffaa, #ffffff, #ffffffaa);
     border-image-slice: 1;
+    width: 100%;
 }
 
 .ipsNavBar_primary>ul>li>a {
