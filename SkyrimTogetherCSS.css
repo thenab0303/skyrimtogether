@@ -41,17 +41,15 @@ body {
 
 /* Navigation Bar */
 .ipsNavBar_primary.ipsNavBar_noSubBars>ul>li.ipsNavBar_active>a {
-    background-color: #000000aa !important;
-    border-radius: 20px;
+    border-bottom: 1px solid white;
 }
 
 .ipsNavBar_primary>ul>li>a {
     transition: 300ms;
-    border-radius: 20px;
 }
 
 .ipsNavBar_primary>ul>li>a:hover {
-    background-color: #000000aa;
+    border-bottom: 1px solid white;
 }
 
 /* Custom code block download banner */
