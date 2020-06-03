@@ -49,14 +49,22 @@ body {
 
 .ipsNavBar_primary>ul>li>a {
     background-color: #00000000;
-    transition: 300ms;
 }
 
-.ipsNavBar_primary>ul>li>a:hover {
-    background-color: #00000000;
+.ipsNavBar_primary>ul>li>a::after {
+    content: "";
+    display: block;
+    margin: auto;
     border-bottom: 1px solid;
     border-image: linear-gradient(to right, #ffffffaa, #ffffff, #ffffffaa);
     border-image-slice: 1;
+    width: 0%;
+    transition: 300ms;
+}
+
+.ipsNavBar_primary>ul>li>a:hover::after {
+    background-color: #00000000;
+    width: 100%;
 }
 
 /* Custom code block download banner */
