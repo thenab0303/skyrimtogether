@@ -117,7 +117,7 @@ body {
 }
 
 #ipsLayout_header {
-    z-index: 0;
+    /* z-index: 0; */
 }
 
 /* Patch Notes Feed */
