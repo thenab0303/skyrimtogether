@@ -39,6 +39,16 @@ body {
     padding-top: 12px;
 }
 
+/* Navigation Bar */
+.ipsNavBar_primary.ipsNavBar_noSubBars>ul>li.ipsNavBar_active>a {
+    background-color: #000000aa !important;
+    border-radius: 20px;
+}
+
+.ipsNavBar_primary:hover {
+    transform: scale(1.01);
+}
+
 /* Custom code block download banner */
 .bannerText {
     display: flex;
