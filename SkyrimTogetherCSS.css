@@ -116,6 +116,10 @@ body {
     transform: scale(1.3);
 }
 
+#ipsLayout_header {
+    z-index: 0;
+}
+
 /* Patch Notes Feed */
 h3#patchNotesTitle {
     font-family: 'Gentium Book Basic', serif;
