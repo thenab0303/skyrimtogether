@@ -48,7 +48,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Gentium Book Basic', serif;
-    text-shadow: 5px 5px 5px black;
+    /* text-shadow: 5px 5px 5px black; */
 }
 
 .bannerImage {
