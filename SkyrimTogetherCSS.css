@@ -152,7 +152,7 @@ body {
 }
 
 #ipsLayout_header {
-    /* z-index: 0; */
+    z-index: 1;
 }
 
 /* Patch Notes Feed */
