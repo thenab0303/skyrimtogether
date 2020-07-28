@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme name="SkyrimTogether Dark" easy_mode="0" editor_skin="Night Mode Editor" author_name="" author_url="" version="" long_version="104005" update_check="">
+ <logo type="front" name="logo_neutral.png">iVBORw0KGgoAAAANSUhEUgAAAL0AAAEYCAQAAACjeD9SAAAjMklEQVR42uVdZ6AVxdl+7qWjoigiKKhEhFhiARU0FsCGjUTBLtbYu7H3KCZBlIgFu0FFjSIRS5AQC2JBBFSk2GnSywWkClye78fZu2fLzM47W86e6/fMj7s7O/POzHPnzO7OvqWCKBna4Cg8ihI2WN6oLGFb5+ER7Jb3gMsHpaO+Hq4CUCfvAQvQFg+UopnSUX8pNgFwQMnai4/TcCV6Z99MqahvgNsAAPuVqL0k+D2Av2T/+ywV9ZdhSwDA8hK1lwTrAbTBgVk3Uyrqb3L+ri1Re0mwAQBwddbNlIb6a7CVc7RVIjmlwHboCgD4A3bNtqHSUH+He3RkSdpLgo1o4hydmW1DpaD+EHcwQHPsXIIWk2A79+gSbJplQ6Wg/l7PcQMMKEGLSXCQe7QZbsi0JWadDmEQPTNvM0ka6enp3Cxbyn4oY0LU/8zNcidYl24P9LV77aX+IN9ApvMbkuR/cqdYnTqGpsmk2kv9OM8w+hAEd+e/SP4ld5rDqR5V2L52Un+wZwi3efJP5T25Ex1MTTme5O3swH240NPv52sn9Z95hrB37uRGp0NJHuEc78iZnp5vVfuo7+bp/vwyvrUWUmM28Zx5V/1Ls2mxIsOPRqM9z8jv4rBMn5HTxyTs7hwtQgtsTL+B7F6pmmN/93gJHs+snawwwz3aGhdk0UB21PdBXfe4IUZn1k5WGOc5/lMWDWRFfTOc7zlbglUZtZMd/ov17nFHHJJ+A1lRf5fvbDhWZtROdhjvO7su/Qayob4lLvadf5pJK9miElM8Z4eiefoNZIFbA+e1b6UH1uM9z1lD59tyisiC+ua40Hc+GtMTSmyITazrNEq82+7/rZ6SAjM+ZEH93YGv+e/FlOPFvpblK1K4MY5BleesWdoKIulTH34KHptY5loAb6DCosYTWJv41j4by3zn96SsIJL6C3L/wM7fEjZPQWoFyafEpV/it6mMZUhgLEekItVJaRNfwfmB7o5KSfKtJDcVldyG5PGptPmnwFjeSJOrtBecc7BNICetB8txQOCRVYe+AN5Opc1g349Dh5RGg/TX+jtDOWk9WNYFsL2o5GEAmqbSZlVIWy7FW2261J+L1oGc2RiZkuzm8GoL6LErmgFYkUqbc/FlIOfM9BRE0qX+7lDOR44aXXIcCaCFoNwWaAC4G75J8U7gfEtXhTEx0qS+N7YN5X2WmvQdAawRlFsHAOiYUqvfhXJk9xsB0qO+En1DedV4NyXprdEJQENx+XYptRt+SGiK7umITo/689EylLcIX6Uk/RoAwH/F5U9Hg1TanYWpobyU9OfSo/5yRd5YqzdQPerhNADAD4Ky9QEAW6FbSuP6IJTTDu3TEJwW9XthF0Xuh9B/+m1qsSgc4mzZSlTEf3buCCenNLIPFHm3pCE4Ler7KiStxOCIGs1wtFj68c5fybeuyc4DYXfxL66u51NmGNMVn8R7i561DEiH+o44QpE7DQsi6szAIThGJH0znOQcDbPo0zY4XFhy90htiQlYrMg9IyZTHqRDvVoZOnoLYT3exluKx9EwTkYz52i11Zh6CXvfI3JHslq55KRg7pMG9U00s/d/hnpP4HV8h/7G15+e7pHdB5OTUE9Q6kQca+jpFEXeth5Vl7hIYQ+uD9XYVlD3j1xBchJP9el+eVNrbnS3n9uI+vOp24PDDSW7cwTX8GBDqR7K0Y1PylvdxP+7zTU/vvFYJKg9DJuhH67Fi1iNgViPaR79l3X4GkA793ZZV7gpUXzn7aqdzwfjFFyECkxCN4wxyPsEKxU7Nx3RGj8lIS654l8/XKvMvxX3iGXsgBuUL+gfg2js2ajdA5OMsurhO+zoHK/BBDd/oftm3Ra90QzABPxZuY6H8ZnyA+UAXJWIucTLzVLlz7Gav7eUswun04RBAjlXG6WQ5Egea9G3wUoZC5Mxl5T4YzVDW8N61rIa8hEjZabVuzVXGWUM55aWPTtbI+m8PKn/QdOpUayMJe8PBuomG+oPoQkPxOjVzhpZ3+dH/fHaAd4UW2aHBPP+KEPd+Tw0Vp8q+J1G4q75UF+HX2sHaXpgi0q3RNI3L+Lj+NTImovYKnafXtbIfDcf6jtGDLJJArng0EgKb9fUui2y1qpEhpi3a+U2iyszydus/mX6v/g5psw62BbHYE5kmWtDWg8A0AI3RtYahxEJxqr/wnxFbJmx58GOETPsXGtpzXgaB/BbzuVqmqHSsjnRUGcVn+b9PDDmLG3AuRq5M0u/4LwWMcxdrCSdwVdYJSC8iF4KKccI61ZxDM+O8Q/4XCvxhNJSv1nE4KZzE7GcDp4dFymq2C4B9QWs4BB2tRrxQ1pZX8TjMO4eznkR18aKzXduC1ifAMsxGW86WjQNcaHyS9YyhZ4AsFTTxkpMBADsjs09uZuiF3rhAYvN3//hMs2VPdFO2SMTYv3HGkYsEBuFP8DtfPN9A79hP54WWgi68lVFG6pNgMsU5dawH7dxrjfjgezn+GgoYiR3F455p4jf0OOlW3Cuj/wxbyGQ0IKzPTUe4k4RZfcO0T86VKYVVwTKTOT5yuf4g3i/7x/wC08UjXkzztCOeFGMbZNY1DeKvClOYB2BjKIJ/wyR6vRfA63sF7j+SuD63QZ5B3Osp/StonEPph7XlYb64xmFvwskXOmWHsKWwlb95P/I+p5rh1sSX0je1yTTthwIXhwx6hj6/HGoH8MomDXbd2S1U/ZFq3b95F/t5lcGdlhkxIPg5e4yNVVQele33yp0y576rpHE/8wWRgkvujNXsjTpyF/k3pK9BgjVPMRK4r5uzbOMZRtyXcTIB2dNfYXPuVAYE4wSNucap6zdi1chPem2NJ9Nnbxebt4v7Ggt8Van7jrjLn4djo4Y+SpuZ9ey7R5OO+wTeX2YUUJnR2n13/g6xrPwBa5+wDL3Sb6oS3+554OgFH0clal6ONtQsjpyF6ixrYKILfWXG66bFVIL+orEY5Ytw6l3nKONU+x5zdEgPBFLZo3G/MHGkl9GXj3ZUsXW6keyDTdELjdzBc/0w0iS6xNsKw8gST7invdwFpv4lorTnbuHqVxbrowcf4/sFpy/GSxHxwUsTcOodLcu5LryQRQsPWa75x9hBYBXsTC2xFEAILCz/QHTIq9fZNOoDfWtcY6hhNk4uYVrGBBfC2UCgF/wL/e8CpfBtBhEo2Bq11xgHxhtJXMUOssbtaHerDY9yliirvu7WW8sq8M2eAPtfX4XnsNZmBVbXs00aKxUVPfDdC87y6pVYaow6slMEUip7+x7b+TRsVfmeLoOUek+ZwTmjb/2Bg6q5Pcw+aw/39Xp0uFDgZR1TqkKu3XRh7RdwNXD6c6RWbFwgeHjZVP0ELcr/B/V9+00qiHbFujslk+gSJFqOtB9KWokKP2KgQWTppD1rD/Y49ddB5ky6qfuk8gDlrMzK9RYB0wSGYeabCJ3Q1tZs1LqrxWUkX7xesT5ezgGK3ULSovjcaxzdLOovJmxvwtbFv049jYuNiS5lHVF0hrxF7fOPO6Y62LT0+2JVInvUgETopc72ay/X1RqC6HV3hrHFBMAWmAMdhDOkvQxEK+6x08K60iMis4WSbK6MZqwmp2Ec+dBT61FsfYwk6cXPH2Q+6n/p4CHGRJJksYGiqkn14nJ927AbuSD2fmJV6Z2Pn3RxRbL3koRD4KPnuammmiMF3SoZmfREDYNqJCu5XAeVRLau7J/QJW8rbjufUIW/p0G9f2siC+QL535/wjV/YQ38neZkd6Yl3FUoMVl7C2u/y8xB2vMRnymxpp5nkbkkC87pyjrj+Hp3DpV0tvzGj7HJYrZuaNYxktWHFyVlPo/WTVXxAYx+XtqPrMv5RCemdhbYAW78CZ+oOmlPGJKW75hycBMNkxG/WRxU2P4BVd7vtnLlx3wdI7XSF3J/rEDVnTjA1prEHIC9xVL2snyflfAKUmoNylOF3EOQbApW/Nil8b17MYK8fB68guN7Nm80Jr2Y0Nruhcv8wALWTtb6kHXYGQS6r8VNjIqUO8kfk+SnMMGVoSdrNXxGcndxFLa8HFtT5fzL2xv1adTucitvZTfCkxMi4h8copqtJe4iYtDdbfgFyQ/sJj1NekMjbrJGqFu5EVabZnP2Nvy5l3p0ZNb4S59Z4l56RuX+pHiJtTauuewizXxhXQiv1S2c6Cx5mOaHj7JPWP0Y3en9hL28H0C6c7lIl5WxKN+p0g1Ny++iklwdHpO0dISg0r235X9+4R7xOxDc5Lkmwo96K+E3JwUh/ph4jn/SMyBmdKZirZWRuyOHqns3UOJ+nA9ByjzpS9XH9tTb/oG6cXJGVEP9la09k9N2TpcW8K+nSdmR3tT14mWv7ltSGAIbE7vKVpUq4XfrCg5JLN+7Sbm5yU76huEbDT0eD9D4sH9FC2qnAA0VRh9Ls4w+F4D/ijkZ4XOqE/9qeQaC6fJo7L5iuHgM7weyrtUUe4kNArlXZ+SU2kVfhF45ilgU5yrvlCpzLOJqT0qs+EV8EYoZzuFYmrYceM8PJNpv6TUa79Zqaj/s8/MMRprUnQYrYbq9xfU/NxK4T76l4z7NUKsD9RB7dw6TH1D/MWiA2OxNuMhqnQzfxM4b6NQVUk3pItq5BLVkQKU3r/D1F+hWDX1+AQZRk0FoNbNDDp3VM3wDMKU+rDBIh7FearfbpD6hlau8X+JaUxgA5Xf2KBWgMoPSb3M5/1Ui7KKgGJB6q/BFhYC52NmxsNro3RfGvylqfzxbYujMu7bFxZl7wpnVQbOrrdqPHmwLxPOcpyi+xE0i1ArZ/dEthgtdPQLAC1xSTDLT/11Fs82gNl1blLs5ItaW0RV4HyoslSvBJYrEvyEHy1Khya1l/oGuMOycYlad3y0xecad9Oyf/mmGCHyahwfNtEVd8Be/gwv9XbPNsBUg2VRMrTGWDRRXlmHTwI53+FzZclD8FCGPYSlK5ZgX9w9hUbWn377Z7p786G23f8pSuvdwl2VYR9NjiGD8DnVKB7eZCmGVq5pbVPUfrjKpH7niPLZkd+I86wY82011hzUj6HuoFbSqLA1WFekqC3rRT6fIDWpkosj6uyTGflmb7J+eD5x1qz1g62e5wHgM41DxUr0wsc4WREqSYqXIiMaD3OCfvmx0aOuHcabUksPa7xvWd67i0kQbGc9471OUcKpC0eSHM/LU15qSPIgTb3DI2sti/QzFT8d6QY2kGEZG/sXnKFW1UlyndEHR0Gb8huemSrxK7SOXCo4J7JmVeyvab/hzbxR89mlsbVO6v1e6m2+wxYHYu5yW6fs6x4fS9F6Oc8Y2709ovbThrofWJN+PB/iFA7k2dxD+y//0NhnPzbWOJMBofSpZ8LLoq4Xn5r6ODl1eAJ31pQ+SdBu64jWjjDW7mdB+7GOR8K+BpPOO6y5u7eG+p2sq5LkDcIBFPVz+znfKDtxA29TzCGJqVy0xk89j4qeDvoH4hYezeCe/MQp/1vjCA83thnEnBrqX49F/TtC6r3P2yOcvEEkJwRUoOtzmqDVMwytmZYccpXr99Kb9uG9bOvoh27pUZQ9RTDCXV2vVnKcUqA+LvYSkv9xiLr2rGYwuNDlghZXG8O6HyiQMi5U6z6SnzrHf/TcrAcKRzjBmrvvk1Ev9Wjq1SFb7RjnF0zI7vKUWiBo8XljW40NrpIKOM5X5ymSdBZD7wPHUuH4EMMrM9kzCfUU+PYDi885BRSMJGsUaWscx10has8clKUOhwvkvBWY8TW7Qpv4DCGkd7O6EbEr9JhGVGJ+7De5kdhMUMr/2Xx33AlguHNWs89+u6i9rY0lqpWhGoM4Aq2co874M4CawKaPY2ePpOeFLHTEb22JA9AGu6qVSqWYIvClcVaoFniwe3wEvb5eo3GSYA7KFNMHO/N1unN+IMG7fSWeEi83dsZtRQwHwVkJyJ/K69xlQ5W6KDTR+3gCwXxKaA15/Fgkcpki3X/disXYJivYiJsGrl8iJP738akDwXMTUE+Si3kPt+fmyq7da6x9peixUuptp5uwz+0I96FwDBG6R0wVeZ5NQDyHFGIQ/uSufnFB/Oz6BRuEn7E5hgNoi1ewt6HmSlSLvgiPxJGCUj0UOpoq3IP1uNM5novBCnWAe43qj6fihQSx09sU/ntnJ/jv6TCTM2OZO+twm2jWNxL6MPBC90D6BbtqFMqb8dTYa3wBL9ONvDkvjWjZGWIBWkKm5zZSHNhaglWYjK8wBWMxC0BLHAhgO5xv/XUjiB0wq8Zz0/V4LnW60kSFkHjgw1Sp3wSd0AlAQZEwnXDgwEuYVRT2fLKwtZljnrjk9hn1oDI14hcXLASK4u6KLaoUkGv8ZK8RlxR3F3yQF6MsN8WSBPfrbEH0wFvCsr/DV3l3NxIrsGXBN2Jx1i/FwLx7pcV0MfHAAizJu7uRuLXGKaV3/bo7715pYfIt6cVC9Mm7u5G9e7Dm0Ev9ghJoy8fDRKvSj2BR3h3WwuNu2n/XvgnVefdNAVo83wDAehyfd5c1GOMNueGnvkrs7bGUoFUEkgoAH5fpc44vIm7wWfXOzG2Q7FGJP1qUbowLAI1efr4Y77e+ClK/IGb4lmxhEx90NfriPUzCvXl3OoRAiJ3wG1o5PufIfIQXQExBV4xOvMuSNobjU39GmPr5ZfucI0MdNABwEC7IuyM+VLvhCVyo9iVuLMP1Xo49jF8I8sDAcOwiFfVLa/W8r5+5vWwc3BPOUu/Gldtzjo2Hj3J8M3kUC8KZauoX4NG8e+vDEclF5IiFagt83R50ee2D7Jl3BxLhWixXZeuon19Wz/fLLcqaw9mVFjN1ylT6Ly+3WJihZw2b70Npfh5MA1ozcP2gqvCfvHvtwsbm+8C8O+vDHP0376j5VD6PmPIPJXbG89njev3n/Cjq34mx/2ezKsths/9eTtS/gxf1F6NX0RthizNxAl5JfQjLLMpmp0+0Bs9aOtmLDHkdTf0ojLPs3vZ4DSdjd9yW4vzfiLctSs9IoLaux0pcgxPxroW/M2A4JkdeT1mhs2j5sTX7B64tVsQKkcHO4vX9RCp5YUzmxWzOfYVquUUYfIebB2JnrjI3oFvvVfFexPbsp/Q8HI0vdf5RNembmBRXhyy/J/GvbnyHGZbShpn6aR6IxDSsiKApc0uf+nQjgq35puUgBDGefGmQNelVnMGreZbPbfxonynFdhauhklytdmpr2Qo4yya/EhR/2336pZOzgCrYdj63bHVmx7PLQiC53vy7gzIlJhTe9HH3E/JUPZxIo+Y8bXSwKHCXWT2dnLqWq2bvSypv91CNllckz9yc+4OyRxsJXGFZImUvKKPx19Fd/T56Kx8riEOcJ4Matwfboh+7ArgW8unkfFWpf/pavls4o7jtlApO1XX/lglKCWaR11EwTN+4mlaCeeQJK/z5EhDbE20nPMgOEU8P+e5DjMqXdNjlduXZhY24Stlod1lQ6kMhEvUQ++C5R36I/lsIfQ7dWoM6mV2uCTZ1a3TketJkkdrZHYVhoYZIw0mKf0hSf337q+98hSAZp7zZaJA0Kut9m9q8JDQj/fNHi9OlagLoL9r0xvE+9orfkzED8JeCufRWcJZ9KBWwiZcx3m+nEaC39JrMeY8CD4v6Kt/KTuAUcGM6rC/cNZfJO2jdCibKQJSqHBlhIzHyEDOdUZ58jiG/iRxg9jFV6Mvo6xlDxVOvbXyIB3ywUi8D0T7jzmAE1npy6lrcFY4PybxYB3Xo40O4wM1hoYmhjcdJ6T+DXkf5Q9NEjO36ki7lCn4PuDHfQNei5T3grh34Z68aSgRtJRtEqkKsB4yyLw9FCD+LzUV7L6MCcxqf6pku6K/OyftGeExrzpRuN/ojb8JgdJNyMjA3LIYpJ/b9FA+65d6dcO1/8co/Z2N+C70vXci7tf6wH8ikYnCx5GvVmH1jKcibSg/D3kPV+ERqx5a/J9OM/7Xb7f5rzupkyYcb7XSVZZNOkvTy2l8XVm+bqQ0837obLv+2bwgv630q+qFxBtNEFPxsDJfqbFlhWc1v6f6GKbMj9ZnNn+atwk1Aru9iaWGF6sNscwmV2CWMj8NJSy1jEF4OYYs06vdN2LnRQ7stoWi17K6lhtXNVBFnno8lc98Q5Whm16NpWG0zHD9RYkQL+yoHxYZg2ymMq5IPKSj+7ZU8XhaJdpVDMO04Fj7mLC1+78z4tp4jW9ve8zElylJGhzKWYQZsSS9EXn1YftYRbbUj4j4sdrEafIirCU5NIYUNT7CnEBOe0UEw3i99CKGhwlb6lejr/bayFhDgiJ+1GsxpKixQeHYIl78uBURDgAei/MGYu9o5H7NhuyP+CgmPb8LnM8IhYFJgrCRfzyzjZnaEGDrcUscgfbUr8J9yvwmsSMjBGfT3FRtWmyUlqKxpSb/cdGbbghx3Os8rczdOralefDZwbxhYYNPQjf/uHpx6n4xrrlrHOp1LlIsXykc7IgugZx07bimh+QdGlPSUGXPHsbCeOLiOZW6WZl7dDDemAgN0CCQE/d2rUb90KzvFEtOQ9yp3BKPbeIdj/pJyt3wnq6nSxssDeXEnEUarAuZaCyLJacVjlNQH+vZpoC4rtSeUuY2j6EW3iVw/nVMavSQOL0244egoT2AlbZbZl7Epf5tzFbm/w1XWkoKxt2elrp5RDD6eZx37m4Yr/DY/XqSaRKX+vW4TnPlAUvygx8o5GGjpQhK3M3K00gBl6GjwuHFM4n6leBTxHTtR4OTLaS8FqjbO+EHknDqEmhhnaXSOHii0kXwJ8n6laTyOVrqv7aQMtNXc00G8QI3CXwHqwp9IY5Ot2lGeVCyfiWpvIXWEfNG7iKW8pWv5trUiQcRoH6xVV2d2+jPkvYqibPYZdpAuhX4R0yZH8ZYh83wb+g2wh7impdrQ1FeLpahQTI/vXrl7yPxLV7GTtYSv7Ly+CSF3wyujsXj5oWa/DnJHdslo36R5pM2ALTDSfjM+v12E8vyMvjfl1fgY2G97thNcyXur9qDpN6pH4+8uiW+KHitjkBj31k2XpX9u5d1Am2qcQEGab9MLcKAFHqV+BZmijxZ0N5tzsMci6VgGusrvVAUDMY29fW1sdL4cLk5X4gc0xVp9Cq5iANowkQO5R9Inqusf72v7LcZEA9ODjzhRP17W/Eizo4cTxXrlQf14HtG8smZJE9X1t7WV24Bd8uc+peUZbZgTw7m2wLTJWkIwBJQf4aAelJvCXiNr9TDqRPfKfAu+ntlqYOEoyDblA/1mwqtok7USvC+0W5MpF+sSh/4eqGzwu0sJH5wWv1KI/7GSs2nEzl6e44rEkvzYy+f8sdPuFb7vCFDrE/gKqQT+uTRhB7jR/vUPy6J/YE9jLoBxZITEn5+fNZe1UmHtKLO3JOw/mUeX5b1FTpjcXEhdvScPRhTK7QIidWjFCmtXM0Fq2R0vFi/Sdt+qfSqle8GOy2ybCfBCGx2ZI0pPVEmfxw/G0OkT/SUHpNKn57z9aBzZNn9BNQfWZ7U72Dottnmwv9JQ2x/qk3+WPf3GUrvbiR+UprEp0k9+Gxkx+cbDGaCs3Sh670gXmroMzH+yVj+WiP1RyfqTyildZsF0tCJvxHFR7ytcUkiWTegieesp7H8robr44WG+nKk+p+cGDFnJLMevNhTY7km5Kgk/dbXtsSZ0QOGOX9punM+3QUH7J6Yev9OqCyysir9xyNlZqQ1r4z6tam/Y6e64AAjUoj/51UlORXbxpJxAo72nJ2YghbnPRmEGUv5f6n3JSCd9eD9nlpDY/ShkW9PaICwVtSsX8WGac/5tBccsL42wLSc+qb82VPvKOs+3OepPU1cK4r6O9MnPu0FB1hXDG8YG0txnufM9tV9Z1zhOTs1lVENSkVKAGlTDzwd8KLxfQwZQzwWhHv41m0znvGYStyfSkC8N2PaHBpQEc+mKxI7ow1+g84AgC/xAHo7NqX1xa5NgO09O4QrsY3YyLgHXneP56CVRa/1uqK/M/gmjossVrFQOozvcqDoEa+YBnrW2luEdZr5fFV1tGpP5/Y0zo1elEpDfZxUwVnu8H/mpqI6//RQZusTtuAt7QHuwrs41Un9eQvr//+jHuzqIfIuQfn9PeWnW+8AdeXjmXySr5XUe70pLxSUfstDfTr7/Zmm9J9w0kQxcOnWAru/vdyjV0KWJGWI8qZ+COa6xzsYyh6Glu7x06gFKG/qt/H4yjE5v9jgGUt5RVDUoLypv8Ldcx+tsN/zY5QnNo/pF1IWKGfqKz3hvSQGY8Uy3fLuugRZvM2mhYZY7viVmofWgmCmlZiPrQEAY3Gw0UVe7ijnWd/Jdeh1hyiK7Ea85NZsmnfnzShn6msCOS4UP7EU3cV0zbvzZpQz9fs5f18SP7H8hDHO0W/y7rwZ5Uv9Vs4rEj0vVmbUlO2Sd/fNKF/q93RumY95XqvMGOH4bmiVouPHjFC+1NeE3hhoVWsthgAAdin/Z/vypb4LAGACpljWe8axvI3r66lkKFfqGzk3Wa8+mgyTHUXuXfIeggnlSv2haAJgPN6JUbcviLhutkqIcqW+DgBgWqy676MCQPu8h2BCuVLfEADw71h112EcoPThXVYoV+oLcQc7x6q7BsuB8n+4zP0zmTY9SJLsFqNmb5LxgneUNJXzzuU47IN52N7STUtLzEB9fIU98+6+CeW64AAFpb2WBt8jQdTBp6iPdeiRd+cFyPtnF5luJGnnY6zgLss2OHAuKfcOGNJ4kovFKtZHkYwKQVlWKfcOGFJbkuTTorKNWUVTRLgySrl3wJgKln2SCJwfkFzFHXLv8a+G+oIOmtm14UUkyeNy7+2vivo6XElyRGSZS0iS/XLv66+MevBkkuRftdf3JhmOIFvmqZxfqbx4DX8E0EETqmUeWgBonoGVX4Yo51cqL87BbOhC/76BFgC61y7iUUsWHBDswPUkbwjln2lld1JGKfcOWKRBJOcEfFQ25GwmdmeeT6otCw4APAFg24A/4vbYDnA+hdcy1Cbq2wEIuocr7GrKLRPLCLWJ+uMBfB2INPItJgNonXfX4qA2Ud8VwNUB19AbMBBAr7y7Fgs53mg6WfkSu1BjzFaPJPmHvG+a9im/pptxI8mewtJ1WUWyj/LaUySH501kbaK+vhNB5CZR6UtIrtAYLncgWc2dhO1248d8NBNX7bWG+qIb6heMJSs5n+QQ7fWxJJ8UtXkCSXKpdXikXxn1xchW/2OXyHKXkST31F6/kGSVwKT+Gae9lH331UbqT/DYd9/HbbTlFpAcFiFnB5LknyPb2pf/dlpK2V9l7aQePp9Ry3mGsswbJGn4XbxKspr7a67u7fM92z1v0suD+qDbq5fZzHe9FYeRJL8xuJsoeHKdxV1DV7YMBPX6Km/Ky4V6v58zklzCl3iae3WOk3udQU4jLnJKHuPJbcMbuTgg/9i8Ka9J+X8qeUwZdusT/A0rMBRbOef7G63FX3fVnh7GBACNcYLCvGGqNtJU6ZH3/97nxUaHBZrASt50g0BOyr64k6XcO8BgLBEVLhFIaa4NRlnE5NzHWmbUdzAQVsU6IjmPGKkvk2ebQiqHncvPMS/y+s0iM31ExEMsYBJG5D1UL8qBeuDuiGtrxc7ZvzGEdUwttk46KA/qH8WP2mtDxVKIJyOuTsGbeQ/Tj/KgHhExeWyiVL2OVdpr11nIKQnKhfoXNfmDMMtCyjL01VyZGgj3Ww7I+z7vpqeUzyTbW0ppVRuebQop9w64aVsFYc/GkPOiQk7Z7Nt4U7ksOMBcj/fuGjwSQ05/RV66UQ3TQt7/e0/qFpirX8aSUodfBOSMy31kZT7rgfcwwXd+Qywp1XgqkJM8aFMmyH/n0otj8JZ7PNHjKNcOLTDb8bEAAL+gFRbnPTAVymnWA+944m/eFFvKfPzDc/b38iQeZbXWg8Ug78n2GNu56/yKdEKw/9rXegAYgCUAgKsSSfnO9aNzfxmrwub9vw+lJ0l+nlhKB1ZTrzRVFqncZj3wKIA+iaV8jkkA7sXKvIejR/lR/zkuwcgU5LwJ9etV2aBu3h1Q4NFUpDyP5RH7mGWA/wPHIVgJBZVkpwAAAABJRU5ErkJggg==</logo>
+ <app key="core" version="104067">
+  <template template_group="global" template_name="globalTemplate" template_data="$title,$html,$location=array()" template_location="front"><![CDATA[<!DOCTYPE html>
+<html lang="{expression="\IPS\Member::loggedIn()->language()->bcp47()"}" dir="{{if member.language()->isrtl}}rtl{{else}}ltr{{endif}}">
+	<head>
+		<title>{expression="output.getTitle( $title )"}</title>
+		{{if settings.ipbseo_ga_enabled}}
+			{setting="ipseo_ga"}
+		{{endif}}
+		<!--[if lt IE 9]>
+			{{foreach \IPS\Theme::i()->css( 'extra/ie8.css', 'core' ) as $css}}<link rel="stylesheet" type="text/css" href="{$css}">{{endforeach}}
+		    <script src="{url="applications/core/interface/html5shiv/html5shiv.js" base="none" protocol="\IPS\Http\Url::PROTOCOL_RELATIVE"}"></script>
+		<![endif]-->
+		{template="includeMeta" app="core" group="global" location="global" params=""}
+		{template="includeCSS" app="core" group="global" location="global" params=""}
+		{template="includeJS" if="theme.js_include != 'footer'" app="core" group="global" location="global" params=""}
+		{template="favico" app="core" group="global" location="front" params=""}
+      	<link rel="icon" type="image/png" href="{media="5"}"/>
+      	<!--<link rel="stylesheet" type="text/css" href="https://thenab0303.github.io/skyrimtogether/SkyrimTogetherCSS.css">-->
+	</head>
+	<body class='ipsApp ipsApp_front {{if isset( \IPS\Request::i()->cookie['hasJS'] )}}ipsJS_has{{else}}ipsJS_none{{endif}} ipsClearfix{{foreach output.bodyClasses as $class}} {$class}{{endforeach}}' {{if output.globalControllers}}data-controller='{expression="implode( ',', output.globalControllers )"}'{{endif}} {{if isset( output.inlineMessage )}}data-message="{expression="output.inlineMessage"}"{{endif}} data-pageApp='{$location['app']}' data-pageLocation='front' data-pageModule='{$location['module']}' data-pageController='{$location['controller']}' {{if isset( \IPS\Request::i()->id )}}data-pageID='{expression="(int) \IPS\Request::i()->id"}'{{endif}}>
+		<a href='#elContent' class='ipsHide' title='{lang="jump_to_content_desc"}' accesskey='m'>{lang="jump_to_content"}</a>
+		<div id='ipsLayout_header' class='ipsClearfix'>
+			{template="updateWarning" app="core" group="global" params=""}
+			{{if !\in_array('ipsLayout_minimal', \IPS\Output::i()->bodyClasses )}}{template="mobileNavBar" app="core" group="global" params=""}{{endif}}
+			<header>
+				<div class='ipsLayout_container'>
+					{template="logo" app="core" group="global" params=""}
+					{{if !\in_array('ipsLayout_minimal', \IPS\Output::i()->bodyClasses )}}{template="userBar" app="core" group="global" params=""}{{endif}}
+				</div>
+			</header>
+			{template="navBar" app="core" group="global" params=""}
+          <div class="bannerContainerDesktop"></div>
+          <script>
+          const bannerContainerDesktop = document.querySelector(".bannerContainerDesktop");
+
+			bannerContainerDesktop.innerHTML = `
+    		<div class="bannerImage bannerImageDesktop">
+        	<div class="bannerText bannerTextDesktop">
+            	<div class="bannerSkyrim bannerTextDesktopScale">SKYRIM</div>
+            	<div class="bannerDivider bannerDividerDesktop bannerTextDesktopScale"></div>
+            	<div class="bannerTogether bannerTextDesktopScale">TOGETHER</div>
+            	<a href="https://github.com/SkyrimTogether/issues-launcher/releases/" target="_blank"><div class="bannerDownloadButton bannerTextDesktopScale"></div></a>
+        	</div>
+    		</div>
+			`;
+          </script>
+		</div>
+		<main id='ipsLayout_body' class='ipsLayout_container'>
+			<div id='ipsLayout_contentArea'>
+				<div id='ipsLayout_contentWrapper'>
+					{template="breadcrumb" app="core" group="global" params="'top'"}
+					{template="sidebar" if="theme.sidebar_position == 'left'" app="core" group="global" params="'left'"}
+					<div id='ipsLayout_mainArea'>
+						<a id='elContent'></a>
+						{advertisement="ad_global_header"}
+						{template="acknowledgeWarning" if="\IPS\Member::loggedIn()->members_bitoptions['unacknowledged_warnings']" params="\IPS\Member::loggedIn()->warnings( 1, FALSE )" group="global" app="core"}
+						{{if !\in_array('ipsLayout_minimal', \IPS\Output::i()->bodyClasses ) and !member.members_bitoptions['profile_completion_dismissed'] and $nextStep = member.nextProfileStep()}}
+							{template="profileNextStep" group="global" app="core" params="$nextStep, true"}
+						{{endif}}
+						{template="widgetContainer" group="global" app="core" params="'header', 'horizontal'"}
+						{$html|raw}
+						{template="widgetContainer" group="global" app="core" params="'footer', 'horizontal'"}
+					</div>
+					{template="sidebar" if="theme.sidebar_position == 'right'" app="core" group="global" params="'right'"}
+					{template="breadcrumb" app="core" group="global" params="'bottom'"}
+				</div>
+			</div>
+			{template="inlineMessage" if="member.msg_show_notification and $message = \IPS\core\Messenger\Conversation::latestUnreadMessage()" app="core" group="global" params="$message"}
+		</main>
+		<footer id='ipsLayout_footer' class='ipsClearfix'>
+			<div class='ipsLayout_container'>
+				{advertisement="ad_global_footer"}
+				{template="footer" app="core" group="global" params=""}
+			</div>
+		</footer>
+		{{if !\in_array('ipsLayout_minimal', \IPS\Output::i()->bodyClasses )}}{template="mobileNavigation" if="theme.responsive" app="core" group="global" params=""}{{endif}}
+		{template="guestTermsBar" if="!\IPS\Member::loggedIn()->member_id and \IPS\Settings::i()->guest_terms_bar" app="core" group="global" params="base64_encode( \IPS\Settings::i()->base_url )"}
+		{template="includeJS" if="theme.js_include == 'footer'" app="core" group="global" location="global" params=""}
+		{template="viglink" if="settings.viglink_enabled" app="core" group="global" params=""}
+		{template="metaTagEditor" if="isset( $_SESSION['live_meta_tags'] ) and $_SESSION['live_meta_tags'] and member.isAdmin()" app="core" group="global" params=""}
+		<!--ipsQueryLog-->
+		<!--ipsCachingLog-->
+		{expression="output.endBodyCode" raw="true"}
+		{{if settings.fb_pixel_enabled and settings.fb_pixel_id and $noscript = \IPS\core\Facebook\Pixel::i()->noscript()}}
+			<noscript>
+			{$noscript|raw}
+			</noscript>
+		{{endif}}
+	</body>
+</html>]]></template>
+  <css css_location="front" css_attributes="" css_path="custom" css_name="custom.css"><![CDATA[/**
+ * This file is for your custom CSS.
+ * This file is not modified or overwritten during upgrades
+ */
+body {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;}
+
+/* Colours */
+.ipsType_pageTitle, .ipsPager_type, .ipsType_sectionHead, .ipsPager 
+.ipsPager_prev a:after, .ipsPager .ipsPager_next a:after,
+.cForumMiniList.cForumMiniList_multiRoot > li > a {color:#fff;}
+.ipsRepBadge_positive, .ipsRepBadge_positive:hover {color: #fff !important;}
+.ipsStepBar > .ipsStep > a, .ipsStepBar > .ipsStep > span {color: #0a0b0d;}
+
+/* Backgrounds */
+.ipsDataList.ipsDataList_zebra .ipsDataItem:not( .ipsDataItem_selected ):not( .ipsModerated ):not( .ipsDataItem_new ):not( .ipsDataItem_success ):not( .ipsDataItem_warning ):not( .ipsDataItem_error ):not( .ipsDataItem_info ):not( .ipsDataItem_status ):nth-child(even)
+{background: #121418;}
+.ipsBox:not( .ipsBox_transparent ):not( .ipsModerated ) {background: #191b21;}
+.ipsPad {background: #191b21;}
+.ipsComment:not( .ipsModerated ) .ipsComment_header {background: #121418; border-top: 1px solid #121418;}
+.ipsCommentCount{background: #121418}
+.ipsTable_zebra tbody tr:nth-child( even ):not(.ipsTable_highlight):not(.ipsModerated)
+{background: #191b21;}
+.ipsTable th {background: #191b21;}
+.ipsTable_sortable.ipsTable_sortableActive {background: #0a0b0d;}
+.ipsDataList_readStatus .ipsDataItem:not( .ipsDataItem_unread ):not( .ipsDataItem_selected ):not( .ipsModerated )
+{background: #191b21;}
+.ipsFieldRow_section {background: #121418; color: #fff;}
+.ipsTabs_panel {background: #121418;}
+.ipsModerated, .cPost.ipsModerated, .cPost.ipsModerated .cAuthorPane, .ipsModerated .cPost_contentWrap
+{background: #0a0b0d;}
+.ipsDrawer_menu, .ipsDrawer_close
+{background: #191b21;}
+
+/* Borders */
+.ipsBox {border: 1px solid #191b21; box-shadow: none;}
+.ipsType_sectionTitle, .ipsWidget.ipsWidget_horizontal .ipsWidget_title {border-bottom: 1px solid #191b21;}
+.ipsItemControls {border-top: 1px solid #191b21;}
+.ipsCommentUnreadSeperator {border-color: #6D96C0;}
+.ipsDrawer_itemParent > h4 {border-bottom: 1px solid #0a0b0d;}
+.ipsBox.ipsModerated {border-color: #121418;}
+.ipsTabs.ipsTabs_contained, .ipsTabs_panels.ipsTabs_contained {border-color: #191b21;}
+html[dir="ltr"] .ipsCommentCount:after {border-color: transparent #121418 transparent transparent;}
+html[dir="ltr"] .cMessage_members > ol > li {border-right: 2px solid #121418;}
+
+
+/* Icons */
+.ipsItemStatus.ipsItemStatus_read {opacity: 0.5;}
+.ipsBadge_positive {background: #6d96c0;}
+.ipsBadge_neutral, .cRatingColumn_on  {background: #121418;}
+.ipsItemStatus.ipsItemStatus_large, .ipsItemStatus.ipsItemStatus_large.ipsItemStatus_read, .cBestAnswerIndicator_off
+{background: #191b21;}
+
+
+/* Buttons */
+html[dir] .ipsButton_split > .ipsButton.ipsButton_link, html[dir] .ipsButton_split > li > .ipsButton.ipsButton_link 
+{border: 1px solid #191b21;}
+.ipsButtonBar .ipsButtonRow li > a, .ipsButtonBar .ipsButtonRow li > button, .ipsButtonBar .ipsButtonRow li > span
+{background: #191b21; color: #fff;}
+.ipsAreaBackground_light .ipsButtonRow li > a:not( .ipsButtonRow_active ), .ipsAreaBackground_light .ipsButtonRow li > button:not( .ipsButtonRow_active ), .ipsAreaBackground_light .ipsButtonRow li > span:not( .ipsButtonRow_active )
+{background: #121418; color: #fff;}
+.ipsApp .ipsButton_link.ipsFollow, .ipsApp .ipsButton_link.ipsPromote
+{background: #191b21; border: 1px solid #191b21;}
+.ipsFollow .ipsCommentCount {background: #121418; color: #fff;}
+html[dir="ltr"] .ipsFollow .ipsCommentCount:after 
+{border-color: transparent #121418 transparent transparent;}
+
+/* Pagination */
+.ipsApp .ipsButtonBar .ipsPagination .ipsPagination_page a,
+.ipsApp .ipsButtonBar .ipsPagination .ipsPagination_prev a,
+.ipsApp .ipsButtonBar .ipsPagination .ipsPagination_next a,
+.ipsApp .ipsButtonBar .ipsPagination .ipsPagination_first a,
+.ipsApp .ipsButtonBar .ipsPagination .ipsPagination_last a,
+.ipsPagination:not( .ipsPagination_mini ) .ipsPagination_page a,
+.ipsPagination:not( .ipsPagination_mini ) .ipsPagination_prev a,
+.ipsPagination:not( .ipsPagination_mini ) .ipsPagination_next a,
+.ipsPagination:not( .ipsPagination_mini ) .ipsPagination_first a,
+.ipsPagination:not( .ipsPagination_mini ) .ipsPagination_last a
+{background: #191b21; color: #fff;}
+
+.ipsButtonBar .ipsPagination .ipsPagination_page.ipsPagination_active a,
+.ipsPagination .ipsPagination_page.ipsPagination_active a
+{background: #fff; color: #191b21;}
+
+.ipsButtonBar .ipsPagination .ipsPagination_pageJump a,
+.ipsPagination .ipsPagination_pageJump a
+{color: #fff;}
+
+.ipsButtonRow li > a, .ipsButtonRow li > button, .ipsButtonRow li > span 
+{background: #191b21; color: #fff;}
+
+.ipsPagination.ipsPagination_mini a {color: #fff; text-shadow: none;}
+
+/* Quotes */
+.ipsQuote {background: #121418; border-radius: 3px; border: 1px solid #191b21; color: #fff;}
+.ipsQuote_citation {background: #121418; color: #fff; border-radius: 3px;}
+.ipsQuote .ipsQuote_citation a {color: #fff;}
+.ipsQuote_citation.ipsQuote_open [data-action='toggleQuote']:before {color: #fff;}
+.ipsTruncate + .ipsTruncate_more {width: 100%; font-size: 13px; text-align: center; margin-bottom: 5px;}
+
+/* Reactions */
+.ipsReact_reactCount {background: #121418; border: 1px solid #121418; border-radius: 3px;}
+.ipsReact_reactCount > a > span:last-child {background: #121418; color: #fff; border-radius: 3px;}
+body.ipsApp_noTouch .ipsReact_types:hover .ipsReact_button, body:not( .ipsApp_noTouch ) .ipsReact_types.ipsReact_types_active .ipsReact_button,
+.ipsReact_types ul	{background: #121418;}
+html[dir="ltr"] .ipsReact_blurb:not( .ipsHide ) + .ipsReact_types {border-left: 1px solid #191b21;}
+.ipsReactOverview ul img {border: 2px solid transparent;}
+
+/* Profile */
+#elProfileStats, .cProfileRepScore_positive {background: #0a0b0d;}
+.cProfileRepScore_neutral {background: #121418; color: #fff;}
+.ipsTabs_activeItem {background: #0a0b0d; color: #fff;}
+#elProfileActivityOverview .ipsStreamItem {margin-bottom: 5px; padding: 15px;}
+.ipsPageHead_barText, .ipsPageHead_barText_small {background: transparent;}
+
+
+/* Editor */
+.ipsComposeArea_dummy, .ipsComposeArea_editor {background: #121418;}
+html[dir="ltr"] .ipsComposeArea_withPhoto .ipsComposeArea_editor:before 
+{border-color: transparent #121418 transparent transparent;}
+.ipsSpoiler_header {background: #121418; color: #fff;}
+.ipsSpoiler .ipsSpoiler_header a {color: #fff;}
+.ipsSpoiler {background: #121418; border: 1px solid #191b21;} 
+
+/* Menu */
+.ipsMenu {background: #121418; border: 1px solid #191b21;}
+.ipsMenu_title {background: #191b21;}
+.ipsMenu_item > a:not( .ipsMenu_itemInline ), .ipsMenu_item > span:not( .ipsMenu_itemInline )
+{color: #fff;}
+.ipsMenu_title, ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMenu_itemDisabled ) a:not( .ipsMenu_itemInline ):hover, .ipsMenu_item[data-selected] a, .ipsMenu_item[data-selected] span, .ipsMenu_item.ipsMenu_hover
+{background: #191b21;}
+.ipsMenu_sep {border-top: 1px solid #191b21;}
+.ipsSideMenu_title {color: #fff;}
+.ipsSideMenu_itemActive a, a.ipsSideMenu_itemActive, span.ipsSideMenu_itemActive, .ipsSideMenu_withChecks .ipsSideMenu_item > input[type="checkbox"]:checked ~ a, .ipsSideMenu_withChecks .ipsSideMenu_item > input[type="checkbox"]:checked ~ span, .ipsSideMenu_withRadios .ipsSideMenu_item > input[type="radio"]:checked ~ a, .ipsSideMenu_withRadios .ipsSideMenu_item > input[type="radio"]:checked ~ span,
+.ipsSideMenu_item:not( .ipsSideMenu_itemActive ) a:hover, 
+a.ipsSideMenu_item:not( .ipsSideMenu_itemActive ):hover,
+span.ipsSideMenu_item:not( .ipsSideMenu_itemActive ):hover,
+.cStreamForm_list li a.ipsSideMenu_item:not( .ipsSideMenu_itemActive ):hover + .cStreamForm_menu
+{background: #191b21;}
+.ipsDataItem {border-color: #191b21;}
+.ipsMenu_headerBar {background: #191b21; border-bottom: 1px solid #191b21;}
+.ipsMenu_footerBar {background: #191b21; border-top: 1px solid #191b21;}
+.ipsMenu.ipsMenu_bottomCenter:before,
+.ipsMenu.ipsMenu_bottomCenter:after,
+.ipsMenu.ipsMenu_bottomRight:before,
+.ipsMenu.ipsMenu_bottomRight:after,
+.ipsMenu.ipsMenu_bottomLeft:before,
+.ipsMenu.ipsMenu_bottomLeft:after
+{border-color: transparent transparent #191b21 transparent;}
+.ipsMenu.ipsMenu_topCenter:before,
+.ipsMenu.ipsMenu_topCenter:after,
+.ipsMenu.ipsMenu_topRight:before,
+.ipsMenu.ipsMenu_topRight:after,
+.ipsMenu.ipsMenu_topLeft:before,
+.ipsMenu.ipsMenu_topLeft:after
+{border-color: #191b21 transparent transparent transparent;}
+.cForumMiniList > li > a.cForumMiniList_selected {background: #121418;}
+ipsTabs_panels.ipsTabs_contained {border-color: #121418;}
+
+/* Search */
+#elSearchWrapper.cSearchExpanded, #elSearchExpanded 
+{background: #191b21;}
+#elSearchExpanded 
+{border: 1px solid #121418;}
+#elSearchExpanded .ipsMenu_title 
+{background: #0a0b0d; border: 1px solid #0a0b0d;}
+#elSearchExpanded .ipsSideMenu_list 
+{background: #191b21; border: 1px solid #191b21;}
+#elSearch input[type="search"] {color: #121418;}
+
+/* Dialogs */
+.ipsDialog_title {color: #fff;}
+.ipsDialog > div {background: #121418;}
+.ipsDialog .ipsDialog_loading
+{background: #121418;}
+.ipsDialog_close {color: #fff;}
+.ipsSelectTree {background: #121418; border: 1px solid #121418; color: #fff;}
+.ipsSelectTree_nodes [data-role="nodeList"] {background: #191b21;}
+.ipsSelectTree_nodes {background: #121418;}
+.ipsSelectTree_nodes [data-role="nodeList"] li .ipsSelectTree_item:not( .ipsSelectTree_itemDisabled ):hover 
+{background: #121418;}
+
+/* Stream */
+.ipsStream .ipsStreamItem_contentType {background: #191b21;}
+.ipsStreamItem.ipsStreamItem_contentBlock {border: 1px solid #191b21;}
+html[dir="ltr"] .ipsStream_withTimeline .ipsStreamItem:after,
+html[dir="ltr"] .ipsStream_withTimeline .ipsStreamItem.ipsStreamItem_contentBlock:before
+{border-color: transparent #191b21 transparent transparent;}
+.cStreamFilter {background: #191b21;}
+.cStreamFilter h3 {color: #fff;}
+.cStreamFilter > li > a.cStreamFilter_active {background: #0a0b0d;}
+
+/* Hovercard */
+.ipsHovercard {background: #121418; border: 1px solid #121418}
+.ipsHovercard_stemTop .ipsHovercard_stem,
+.ipsHovercard_stemTop .ipsHovercard_stem:before
+{border-color: #121418 transparent transparent transparent;}
+.ipsHovercard_stemBottom .ipsHovercard_stem,
+.ipsHovercard_stemBottom .ipsHovercard_stem:before
+{border-color: transparent transparent #121418 transparent;}
+
+/* Inputs */
+.ipsApp textarea[disabled], .ipsApp input[type="text"][disabled], .ipsApp input[type="password"][disabled], .ipsApp input[type="datetime"][disabled], .ipsApp input[type="datetime-local"][disabled], .ipsApp input[type="date"][disabled], .ipsApp input[type="month"][disabled], .ipsApp input[type="time"][disabled], .ipsApp input[type="week"][disabled], .ipsApp input[type="number"][disabled], .ipsApp input[type="email"][disabled], .ipsApp input[type="url"][disabled], .ipsApp input[type="search"][disabled], .ipsApp input[type="tel"][disabled], .ipsApp input[type="color"][disabled]
+{background: #0a0b0d; color: #fff;}
+.ipsCustomInput > span {background: transparent; border-color: #787878; opacity: 1;}
+
+
+/* Extras */
+.ipsImage_thumbnailed {border: none;}
+.ipsUserPhoto {background: transparent;}
+.cPollVoteBar {background: #191b21; border: 1px solid #121418;}
+#twitter-widget-0 {width: auto!important;}
+.ipsApp .ipsField_autocomplete, .ipsApp textarea, .ipsApp input[type="text"], .ipsApp input[type="password"], .ipsApp input[type="datetime"], .ipsApp input[type="datetime-local"], .ipsApp input[type="date"], .ipsApp input[type="month"], .ipsApp input[type="time"], .ipsApp input[type="week"], .ipsApp input[type="number"], .ipsApp input[type="email"], .ipsApp input[type="url"], .ipsApp input[type="search"], .ipsApp input[type="tel"], .ipsApp .ipsField_dummy
+{background: #191b21; color: #fff; border: 1px solid #0a0b0d;}
+.ipsAlert {background: #121418;}
+
+/* Gallery */
+.cGalleryLightbox_info {background: #121418;}
+.cGalleryExif_data li {background: #0a0b0d;}
+
+/* Calender */
+#elEventHeader_details {background: #0a0b0d;}
+.cCalendar td.cCalendar_nonDate, .ipsSticky {background: #121418;}
+.ui-datepicker, .ui-datepicker-header  {background: #191b21}
+.ipsCalendarDate_date {color: #0a0b0d;}
+.ui-datepicker th, .ui-datepicker td a:hover, .ui-datepicker-current-day {background-color: #0a0b0d;}
+
+/* Nexus */
+#elNexusActions > li > a:hover {background: #121418;}
+.cNexusActionBadge_off {background: #121418; border: 1px solid #191b21;}
+.cNexusActionBadge {border: 1px solid #191b21;}
+
+
+/* Clubs */
+#elClubControls .ipsTabs {background: #0a0b0d;}
+
+/* Blog */
+#elBlogHeaderStats {background: #0a0b0d;}
+
+/* Downloads */
+#elDownloadsSubmit .ipsAttachment_dropZone {background: #0a0b0d;}
+
+/* Loading Stuff */
+
+.ipsImage[data-src]:not([data-loaded]) 
+{background: #191b21;}
+
+body.unloaded #ipsEmbedLoading {
+  background: transparent;
+}
+
+@keyframes dummy_anim {
+	0% {
+		background-color:#191b21; /* set the starting colour */
+	}
+	50% {
+		background-color:#0e0f12; /* slightly lighter/darker colour to create pulsing effect */ 
+	}
+	99% {
+		background-color:#191b21; /* return to starting colour */
+	}
+}
+
+
+/*---Skyrim Together CSS---*/
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&display=swap');
+
+/* Textured Background */
+body {
+    background-image: url("{media="2"}");
+}
+
+/* White borders at top of page */
+#ipsLayout_header > header {
+    /* border-top: 1px solid white; */
+}
+
+#ipsLayout_header {
+    /* border-bottom: 1px solid white; */
+}
+
+/* Logo alignment */
+#elMobileNav {
+    z-index: 1;
+}
+
+#elLogo {
+    width: 85px;
+    height: 85px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(50deg) skew(19deg, 11deg);
+    background-color: black;
+    border: 1px solid white;
+}
+
+#elLogo img {
+    width: 100%;
+    height: 85px;
+    transform: rotate(-46deg);
+    padding-top: 12px;
+}
+
+/* Navigation Bar */
+.ipsNavBar_primary.ipsNavBar_noSubBars>ul>li.ipsNavBar_active>a {
+    background-color: #00000000;
+}
+
+.ipsNavBar_primary.ipsNavBar_noSubBars>ul>li.ipsNavBar_active>a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #ffffffaa, #ffffff, #ffffffaa);
+    border-image-slice: 1;
+    width: 100%;
+}
+
+.ipsNavBar_primary>ul>li>a {
+    background-color: #00000000;
+}
+
+.ipsNavBar_primary>ul>li>a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #ffffffaa, #ffffff, #ffffffaa);
+    border-image-slice: 1;
+    width: 0%;
+    transition: 300ms;
+}
+
+.ipsNavBar_primary>ul>li>a:hover::after {
+    background-color: #00000000;
+    width: 100%;
+}
+
+/* Custom code block download banner */
+.bannerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gentium Book Basic', serif;
+    /* text-shadow: 5px 5px 5px black; */
+}
+
+.bannerImage {
+    width: 100%;
+    height: 35vh;
+    background-image: url("{media="8"}");
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerSkyrim {
+    font-size: 4rem;
+}
+
+.bannerDivider {
+    width: 250px;
+    height: 1px;
+    border: none;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, #ffffff00, #ffffff, #ffffff00);
+    border-image-slice: 1;
+    margin: 20px 0px 10px 0px;
+}
+
+.bannerTogether {
+    font-size: 2.5rem;
+}
+
+.bannerDownloadButton {
+    background-image: url("{media="4"}");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+/* Desktop Download Banner */
+
+#ipsLayout_header header {
+    background-color: #00000000;
+    min-height: 120px;
+}
+
+.bannerContainerDesktop {
+    position: relative;
+    transform: translate(0px, -170px);
+    z-index: -1;
+    margin-bottom: -170px;
+}
+
+.bannerImageDesktop {
+    height: 500px;
+}
+
+.bannerTextDesktop {
+    padding-top: 180px;
+}
+
+.bannerDividerDesktop {
+    margin: 40px 0px 20px 0px;
+}
+
+.bannerTextDesktopScale {
+    transform: scale(1.3);
+}
+
+#ipsLayout_header {
+    z-index: 1;
+}
+
+/* Announcements Feed */
+h3#announcementsTitle {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1rem !important;
+}
+
+div#announcementsFeed {
+    height: 150px;
+    background-image: url("{media="1"}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-flow: row nowrap;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1rem !important;
+}
+
+#announcementsFeed > ul > li > div > h4 > span > a, #announcementsFeed > ul > li > div > p {
+    font-size: 1rem !important;
+}
+
+/* Patch Notes Feed */
+h3#patchNotesTitle {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1rem !important;
+}
+
+div#patchNotesFeed {
+    height: 150px;
+    background-image: url("{media="7"}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-flow: row nowrap;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1rem !important;
+}
+
+#patchNotesFeed > ul > li > div > h4 > span > a, #patchNotesFeed > ul > li > div > p {
+    font-size: 1rem !important;
+}
+
+/* Custom code block server stats */
+.statsContainer {
+    text-align: center;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column nowrap;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1.7rem;
+}
+
+.statsName {
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.statsCurrent, .statsMax {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.currentPlayers, .currentServers, .maxPlayers, .maxServers {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+/* stats border colors */
+.statsCurrent {
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #ffffff00, #ffffff, #ffffff00);
+    border-image-slice: 1;
+}
+
+.currentPlayers {
+    border-right: 1px solid;
+    border-image: linear-gradient(#ffffff00, #ffffff);
+    border-image-slice: 1;
+}
+
+.maxPlayers {
+    border-right: 1px solid;
+    border-image: linear-gradient(to top, #ffffff00, #ffffff);
+    border-image-slice: 1;
+}
+
+/* Custom code block Discord invite */
+.discordImage {
+    width: 100%;
+    height: 10vh;
+    background-image: url("{media="3"}");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}]]></css>
+  <css css_location="front" css_attributes="" css_path="custom" css_name="plugins.minimizequote.css">.ipsQuote_contents.ipsTruncate:not(.ipsTruncate_expanded) iframe {
+	position: static;
+}</css>
+  <resource name="default_photo.png" location="global" path="/" user_edited="1">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</resource>
+  <field sc_key="ajax_pagination" sc_type="YesNo" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="1" sc_tab_key="custom" sc_show_in_vse="1" sc_title="themesetting_ajax_pagination" sc_order="10" sc_condition="">0</field>
+  <field sc_key="alternate_button" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#3e4148" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_alternate_button" sc_order="3" sc_condition="">#0a0b0d</field>
+  <field sc_key="alternate_button_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ffffff" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_alternate_button_font" sc_order="4" sc_condition="">#ffffff</field>
+  <field sc_key="area_background" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#e6e8eb" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_area_background" sc_order="11" sc_condition="">#191b21</field>
+  <field sc_key="area_background_dark" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#353c41" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_area_background_dark" sc_order="12" sc_condition="">#353c41</field>
+  <field sc_key="area_background_light" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#f8f8f8" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_area_background_light" sc_order="13" sc_condition="">#191b21</field>
+  <field sc_key="area_background_reset" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ffffff" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_area_background_reset" sc_order="14" sc_condition="">#121418</field>
+  <field sc_key="body_font" sc_type="Select" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;default&quot;,&quot;value&quot;:&quot;Default&quot;},{&quot;key&quot;:&quot;Lato&quot;,&quot;value&quot;:&quot;Lato&quot;},{&quot;key&quot;:&quot;Open Sans&quot;,&quot;value&quot;:&quot;Open Sans&quot;},{&quot;key&quot;:&quot;Roboto&quot;,&quot;value&quot;:&quot;Roboto&quot;},{&quot;key&quot;:&quot;Roboto Slab&quot;,&quot;value&quot;:&quot;Roboto Slab&quot;},{&quot;key&quot;:&quot;Montserrat&quot;,&quot;value&quot;:&quot;Montserrat&quot;},{&quot;key&quot;:&quot;Merriweather&quot;,&quot;value&quot;:&quot;Merriweather&quot;}]" sc_default="Roboto" sc_tab_key="textcolors" sc_show_in_vse="1" sc_title="themesetting_body_font" sc_order="1" sc_condition="">default</field>
+  <field sc_key="button_bar" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ffffff" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_button_bar" sc_order="13" sc_condition="">#121418</field>
+  <field sc_key="comment_count" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#353c41" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_comment_count" sc_order="39" sc_condition="">#353c41</field>
+  <field sc_key="comment_count_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ffffff" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_comment_count_font" sc_order="40" sc_condition="">#ffffff</field>
+  <field sc_key="enable_fluid_width" sc_type="YesNo" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;},{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="0" sc_tab_key="custom" sc_show_in_vse="1" sc_title="themesetting_enable_fluid_width" sc_order="7" sc_condition="">0</field>
+  <field sc_key="featured" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#d66723" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_featured_color" sc_order="41" sc_condition="">#d66723</field>
+  <field sc_key="fluid_width_size" sc_type="Number" sc_multiple="0" sc_content="[]" sc_default="95" sc_tab_key="custom" sc_show_in_vse="1" sc_title="themesetting_fluid_width_size" sc_order="8" sc_condition="">95</field>
+  <field sc_key="footer_text" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#353c41" sc_tab_key="textcolors" sc_show_in_vse="0" sc_title="themesetting_footer_text" sc_order="13" sc_condition="">#ffffff</field>
+  <field sc_key="header" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#3d6594" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_header" sc_order="2" sc_condition="">#121418</field>
+  <field sc_key="headline_font" sc_type="Select" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;default&quot;,&quot;value&quot;:&quot;Default&quot;},{&quot;key&quot;:&quot;Lato&quot;,&quot;value&quot;:&quot;Lato&quot;},{&quot;key&quot;:&quot;Open Sans&quot;,&quot;value&quot;:&quot;Open Sans&quot;},{&quot;key&quot;:&quot;Roboto&quot;,&quot;value&quot;:&quot;Roboto&quot;},{&quot;key&quot;:&quot;Roboto Slab&quot;,&quot;value&quot;:&quot;Roboto Slab&quot;},{&quot;key&quot;:&quot;Montserrat&quot;,&quot;value&quot;:&quot;Montserrat&quot;},{&quot;key&quot;:&quot;Merriweather&quot;,&quot;value&quot;:&quot;Merriweather&quot;}]" sc_default="Roboto" sc_tab_key="textcolors" sc_show_in_vse="1" sc_title="themesetting_headline_font" sc_order="2" sc_condition="">default</field>
+  <field sc_key="important_button" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#478f79" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_important_button" sc_order="7" sc_condition="">#191b21</field>
+  <field sc_key="important_button_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ffffff" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_important_button_font" sc_order="8" sc_condition="">#ffffff</field>
+  <field sc_key="item_status" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#353c41" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_item_status_active" sc_order="27" sc_condition="">#ffffff</field>
+  <field sc_key="js_include" sc_type="Radio" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;head&quot;,&quot;value&quot;:&quot;themesetting_js_position_head&quot;},{&quot;key&quot;:&quot;footer&quot;,&quot;value&quot;:&quot;themesetting_js_position_body&quot;}]" sc_default="footer" sc_tab_key="custom" sc_show_in_vse="0" sc_title="themesetting_js_location" sc_order="9" sc_condition="">footer</field>
+  <field sc_key="light_button" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#e5e5e5" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_light_button" sc_order="9" sc_condition="">#121418</field>
+  <field sc_key="light_button_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#333333" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_light_button_font" sc_order="10" sc_condition="">#ffffff</field>
+  <field sc_key="link" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#3d6594" sc_tab_key="textcolors" sc_show_in_vse="0" sc_title="themesetting_link" sc_order="6" sc_condition="">#ffffff</field>
+  <field sc_key="link_button" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#8d9aa6" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_link_button" sc_order="15" sc_condition="">#787878</field>
+  <field sc_key="link_hover" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#4588c5" sc_tab_key="textcolors" sc_show_in_vse="0" sc_title="themesetting_link_hover" sc_order="7" sc_condition="">#ffffff</field>
+  <field sc_key="main_nav" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#375476" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_main_nav" sc_order="3" sc_condition="">#121418</field>
+  <field sc_key="main_nav_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ffffff" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_main_nav_font" sc_order="4" sc_condition="">#ffffff</field>
+  <field sc_key="main_nav_tab" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#ffffff" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_main_nav_active" sc_order="5" sc_condition="">#191b21</field>
+  <field sc_key="main_nav_tab_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#353c41" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_main_nav_active_font" sc_order="6" sc_condition="">#ffffff</field>
+  <field sc_key="mentions" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#3d6594" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_mentions" sc_order="29" sc_condition="">#6d96c0</field>
+  <field sc_key="mobile_back" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#e8e9eb" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_mobile_back" sc_order="33" sc_condition="">#191b21</field>
+  <field sc_key="mobile_back_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#353c41" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_mobile_back_font" sc_order="34" sc_condition="">#ffffff</field>
+  <field sc_key="moderated" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#f7edf1" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_moderated" sc_order="18" sc_condition="">#0a0b0d</field>
+  <field sc_key="moderated_light" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#fcf7f9" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_moderated_light" sc_order="19" sc_condition="">#0a0b0d</field>
+  <field sc_key="moderated_text" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#880e4f" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_moderated_text" sc_order="20" sc_condition="">#880e4f</field>
+  <field sc_key="moderated_text_light" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#a4768f" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_moderated_text_light" sc_order="21" sc_condition="">#a4768f</field>
+  <field sc_key="normal_button" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#478f79" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_normal_button" sc_order="5" sc_condition="">#0a0b0d</field>
+  <field sc_key="normal_button_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ffffff" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_normal_button_font" sc_order="6" sc_condition="">#ffffff</field>
+  <field sc_key="notification_bubble" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#b63f3f" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_notification_bubble" sc_order="28" sc_condition="">#6d96c0</field>
+  <field sc_key="page_background" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#fcfcfc" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_page_background" sc_order="1" sc_condition="">#121418</field>
+  <field sc_key="pagination_active" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#3e4148" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_pagination_active" sc_order="14" sc_condition="">#3e4148</field>
+  <field sc_key="poll_bar" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#3d6594" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_poll_bar" sc_order="22" sc_condition="">#6d96c0</field>
+  <field sc_key="post_highlight" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#fffefa" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_post_highlight" sc_order="31" sc_condition="">#fffefa</field>
+  <field sc_key="post_highlight_border" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#d0ad71" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesettings_post_highlight_border" sc_order="32" sc_condition="">#d0ad71</field>
+  <field sc_key="prefix" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#b63f3f" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_prefix" sc_order="9" sc_condition="">#b63f3f</field>
+  <field sc_key="price" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#b63f3f" sc_tab_key="textcolors" sc_show_in_vse="0" sc_title="themesetting_price" sc_order="14" sc_condition="">#b63f3f</field>
+  <field sc_key="primary_button" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#3e4148" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_primary_button" sc_order="1" sc_condition="">#0a0b0d</field>
+  <field sc_key="primary_button_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ffffff" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_primary_button_font" sc_order="2" sc_condition="">#ffffff</field>
+  <field sc_key="profile_header" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#353c41" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_profile_header" sc_order="7" sc_condition="">#121418</field>
+  <field sc_key="rating_hover" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#3d6594" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_rating_hover" sc_order="23" sc_condition="">#191b21</field>
+  <field sc_key="rating_on" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ff9800" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_rating_on" sc_order="24" sc_condition="">#ff9800</field>
+  <field sc_key="recaptcha_theme" sc_type="other" sc_multiple="0" sc_content="return new \IPS\Helpers\Form\Radio( &quot;core_theme_setting_title_{$row['sc_id']}&quot;, $value, FALSE, array( 'options' =&gt; array(&#13;&#10;&#9;&#9;&#9;'clean'&#9;&#9;&#9;=&gt; &quot;&lt;img src='&quot; . $theme-&gt;resource( 'recaptcha/clean.png', 'core' ) . &quot;' alt='clean'&gt;&quot;,&#13;&#10;&#9;&#9;&#9;'red'&#9;&#9;&#9;=&gt; &quot;&lt;img src='&quot; . $theme-&gt;resource( 'recaptcha/red.png', 'core' ) . &quot;' alt='clean'&gt;&quot;,&#13;&#10;&#9;&#9;&#9;'white'&#9;&#9;&#9;=&gt; &quot;&lt;img src='&quot; . $theme-&gt;resource( 'recaptcha/white.png', 'core' ) . &quot;' alt='clean'&gt;&quot;,&#13;&#10;&#9;&#9;&#9;'blackglass'&#9;=&gt; &quot;&lt;img src='&quot; . $theme-&gt;resource( 'recaptcha/blackglass.png', 'core' ) . &quot;' alt='clean'&gt;&quot;,&#13;&#10;&#9;&#9;&#9;), 'parse' =&gt; 'raw' ), NULL, NULL, NULL, 'theme_setting_' . $row['sc_key'] );" sc_default="white" sc_tab_key="custom" sc_show_in_vse="0" sc_title="recaptcha_theme" sc_order="13" sc_condition="return \IPS\Settings::i()-&gt;bot_antispam_type === 'recaptcha';"/>
+  <field sc_key="recaptcha2_theme" sc_type="other" sc_multiple="0" sc_content="return new \IPS\Helpers\Form\Radio( &quot;core_theme_setting_title_{$row['sc_id']}&quot;, $value, FALSE, array( 'options' =&gt; array(&#13;&#10;&#9;&#9;&#9;'light'&#9;&#9;&#9;=&gt; &quot;&lt;img src='&quot; . $theme-&gt;resource( 'recaptcha2/light.png', 'core' ) . &quot;' alt='light'&gt;&quot;,&#13;&#10;&#9;&#9;&#9;'dark'&#9;&#9;&#9;=&gt; &quot;&lt;img src='&quot; . $theme-&gt;resource( 'recaptcha2/dark.png', 'core' ) . &quot;' alt='dark'&gt;&quot;,&#13;&#10;&#9;&#9;&#9;), 'parse' =&gt; 'raw' ), NULL, NULL, NULL, 'theme_setting_' . $row['sc_key'] );" sc_default="light" sc_tab_key="custom" sc_show_in_vse="0" sc_title="recaptcha2_theme" sc_order="12" sc_condition="return \IPS\Settings::i()-&gt;bot_antispam_type === 'recaptcha2';"/>
+  <field sc_key="responsive" sc_type="YesNo" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;},{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="1" sc_tab_key="custom" sc_show_in_vse="0" sc_title="themesetting_responsive" sc_order="1" sc_condition="">1</field>
+  <field sc_key="rounded_photos" sc_type="YesNo" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;},{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="1" sc_tab_key="custom" sc_show_in_vse="0" sc_title="themesetting_rounded_photos" sc_order="2" sc_condition="">1</field>
+  <field sc_key="secondary_title" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#ebedf0" sc_tab_key="textcolors" sc_show_in_vse="0" sc_title="themesetting_secondary_title" sc_order="11" sc_condition="">#191b21</field>
+  <field sc_key="secondary_title_font" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#828e99" sc_tab_key="textcolors" sc_show_in_vse="0" sc_title="themesetting_secondary_title_font" sc_order="12" sc_condition="">#ffffff</field>
+  <field sc_key="section_title" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ebedf0" sc_tab_key="textcolors" sc_show_in_vse="0" sc_title="themesetting_section_title" sc_order="8" sc_condition="">#191b21</field>
+  <field sc_key="section_title_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#828e99" sc_tab_key="textcolors" sc_show_in_vse="0" sc_title="themesetting_section_title_font" sc_order="10" sc_condition="">#ffffff</field>
+  <field sc_key="selected" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ebf4f9" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_selected" sc_order="10" sc_condition="">#0a0b0d</field>
+  <field sc_key="sidebar_position" sc_type="Select" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;left&quot;,&quot;value&quot;:&quot;Left&quot;},{&quot;key&quot;:&quot;right&quot;,&quot;value&quot;:&quot;Right&quot;}]" sc_default="right" sc_tab_key="custom" sc_show_in_vse="0" sc_title="themesetting_sidebar_position" sc_order="4" sc_condition="">right</field>
+  <field sc_key="sidebar_responsive" sc_type="YesNo" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="1" sc_tab_key="custom" sc_show_in_vse="1" sc_title="themesetting_sidebar_responsive" sc_order="5" sc_condition="">1</field>
+  <field sc_key="social_links" sc_type="Radio" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;header&quot;,&quot;value&quot;:&quot;themesetting_header&quot;},{&quot;key&quot;:&quot;footer&quot;,&quot;value&quot;:&quot;themesetting_footer&quot;}]" sc_default="footer" sc_tab_key="custom" sc_show_in_vse="1" sc_title="themesetting_social_links_pos" sc_order="3" sc_condition="">footer</field>
+  <field sc_key="step_background" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#3d6594" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_step_background" sc_order="25" sc_condition="">#191b21</field>
+  <field sc_key="tab_background" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#3d6594" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_tabs_background" sc_order="30" sc_condition="">#121418</field>
+  <field sc_key="tag" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#353c41" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_tag" sc_order="8" sc_condition="">#121418</field>
+  <field sc_key="text_color" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#353c41" sc_tab_key="textcolors" sc_show_in_vse="0" sc_title="themesetting_text_color" sc_order="3" sc_condition="">#ffffff</field>
+  <field sc_key="text_dark" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#1e2225" sc_tab_key="textcolors" sc_show_in_vse="0" sc_title="themesetting_dark_text_color" sc_order="4" sc_condition="">#787878</field>
+  <field sc_key="text_light" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#8d9aa6" sc_tab_key="textcolors" sc_show_in_vse="0" sc_title="themesetting_text_light" sc_order="5" sc_condition="">#ffffff</field>
+  <field sc_key="timeline_color" sc_type="Color" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]" sc_default="#353c41" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="activity_stream_timeline" sc_order="26" sc_condition="">#191b21</field>
+  <field sc_key="trophy_first" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#fac746" sc_tab_key="frontendcolors" sc_show_in_vse="1" sc_title="themesetting_trophy_first" sc_order="35" sc_condition="">#fac746</field>
+  <field sc_key="trophy_first_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#704926" sc_tab_key="frontendcolors" sc_show_in_vse="1" sc_title="themesetting_trophy_first_font" sc_order="38" sc_condition="">#704926</field>
+  <field sc_key="trophy_second" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#c0c0c0" sc_tab_key="frontendcolors" sc_show_in_vse="1" sc_title="themesetting_trophy_second" sc_order="36" sc_condition="">#c0c0c0</field>
+  <field sc_key="trophy_third" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#cd7f32" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_trophy_third" sc_order="37" sc_condition="">#cd7f32</field>
+  <field sc_key="very_light_button" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ffffff" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_very_light_button" sc_order="11" sc_condition="">#ffffff</field>
+  <field sc_key="very_light_button_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#333333" sc_tab_key="buttoncolors" sc_show_in_vse="0" sc_title="themesetting_very_light_button_font" sc_order="12" sc_condition="">#333333</field>
+  <field sc_key="widget_title_bar" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#ebedf0" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_widget_title_bar" sc_order="15" sc_condition="">#191b21</field>
+  <field sc_key="widget_title_font" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#828e99" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_widget_font" sc_order="16" sc_condition="">#ffffff</field>
+ </app>
+ <app key="cms" version="104067"/>
+ <app key="nexus" version="104067">
+  <field sc_key="subscription_active_color" sc_type="Color" sc_multiple="0" sc_content="[]" sc_default="#3d6594" sc_tab_key="frontendcolors" sc_show_in_vse="0" sc_title="themesetting_subscription_active" sc_order="42" sc_condition="">#3d6594</field>
+  <field sc_key="cm_store_view" sc_type="Select" sc_multiple="0" sc_content="[{&quot;key&quot;:&quot;grid&quot;,&quot;value&quot;:&quot;cm_store_view_grid&quot;},{&quot;key&quot;:&quot;list&quot;,&quot;value&quot;:&quot;cm_store_view_list&quot;}]" sc_default="grid" sc_tab_key="custom" sc_show_in_vse="0" sc_title="themesetting_cm_store_view" sc_order="11" sc_condition="">grid</field>
+ </app>
+ <app key="gallery" version="104067"/>
+ <app key="blog" version="104067"/>
+ <app key="calendar" version="104067"/>
+ <app key="downloads" version="104067"/>
+ <app key="forums" version="104067"/>
+ <language/>
+</theme>
